@@ -1,4 +1,4 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# See https://help.github.com/articles/ignoring-files/ for more information.
 
 # Dependencies
 node_modules
@@ -27,6 +27,17 @@ out/
 build
 dist
 
+# Expo / React Native
+.expo/
+.expo-shared/
+web-build/
+*.ipa
+*.apk
+*.aab
+
+# Native builds
+ios/build/
+android/build/
 
 # Debug
 npm-debug.log*
